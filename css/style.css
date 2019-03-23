@@ -1,0 +1,90 @@
+/* index.html */
+
+.slider h3,
+.slider h5,
+.clients h3{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 3.8)
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    align-self: auto;
+    display: none;
+    background-color:whitesmoke;
+ min-width: 400px;}
+#brand-image{
+    margin-top: 2px;
+    height: 58px;
+}
+.parallax-container {
+    height: 300px;
+}
+#row2{
+    margin-top: 12px;
+}
+#contact{
+    margin-left: 90px;
+}
+#address{
+    margin-left: 110px;
+}
+#buttoncontact{
+    margin-left: 60px;
+    border-radius: 18px;
+}
+#video{
+    margin-left: 10px;
+}
+footer{
+padding: 2px 0;
+}
+#copy{
+    margin-left: 20px;
+}
+section{
+    padding: 20px 0;
+}
+/* internet.html */
+
+
+.socicons-list {
+    list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: right ;
+  height: 10vh;
+  margin-left: 900px;
+}
+.socicons-list li {
+  margin: 10px 20px;
+}
+.socicons-list li a {
+  text-decoration: none;
+  padding: 10px;
+    font-size: 30px;
+  border-radius: 20%;
+  color: #fff;
+    background-color: #f1f1f1;
+  transition: all ease-in-out 150ms;
+}
+.socicons-list li a:hover {
+text-shadow: 0 5px 10px #212121;
+}
+
+.socicons-list li:nth-child(1) a {
+    background-color: #3e5b98;
+}
+.socicons-list li:nth-child(2) a {
+    background-color: #c13584;
+}
+.socicons-list li:nth-child(3) a {
+    background-color: #4da7de;
+}
+.socicons-list li:nth-child(4) a {
+    background-color: #dd4b39;
+}
+.socicons-list li:nth-child(5) a {
+    background-color: #1769ff;
+}
